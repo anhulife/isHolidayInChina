@@ -16,6 +16,10 @@ var isHolidayInChina = require('isHolidayInChina');
 isHolidayInChina(new Date('2016-10-01')); // true
 ```
 
+## 数据来源
+
+- 2016 - http://www.gov.cn/zhengce/content/2015-12/10/content_10394.htm
+
 ## License
 
 MIT © [anhulife](https://github.com/anhulife)
