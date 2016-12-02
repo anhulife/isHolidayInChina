@@ -1,6 +1,7 @@
 import eventsIn2016 from './2016';
+import eventsIn2017 from './2017';
 
-const events = [].concat(eventsIn2016);
+const events = [].concat(eventsIn2016, eventsIn2017);
 
 events.forEach(event => {
   event.range = [
