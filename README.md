@@ -20,6 +20,7 @@ isHolidayInChina(new Date('2016-10-01')); // true
 
 - 2016 - http://www.gov.cn/zhengce/content/2015-12/10/content_10394.htm
 - 2017 - http://www.gov.cn/zhengce/content/2016-12/01/content_5141603.htm
+- 2018 - http://www.gov.cn/xinwen/2017-11/30/content_5243589.htm
 
 ## License
 
