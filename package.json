@@ -1,6 +1,6 @@
 {
   "name": "isHolidayInChina",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "检查某一天是不是中国大陆的假期，数据从2016年起开始提供",
   "repository": "anhulife/isHolidayInChina",
   "main": "./lib/index.js",
