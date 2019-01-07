@@ -10,7 +10,7 @@ const isHoliday = date => {
 
   const day = date.getDay();
 
-  return day === 6 || day === 7;
+  return day === 6 || day === 0;
 };
 
 export default isHoliday;

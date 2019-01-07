@@ -4,6 +4,7 @@ var isHoliday = require('./lib');
 
 it('正常假日', function () {
   assert.equal(isHoliday(new Date('2016-11-12')), true);
+  assert.equal(isHoliday(new Date('2019-01-06')), true);
   assert.equal(isHoliday(new Date('2019-04-20')), true);
 });
 
