@@ -16,9 +16,12 @@ it('正常工作日', function () {
 it('节日', function () {
   assert.equal(isHoliday(new Date('2016-10-01')), true);
   assert.equal(isHoliday(new Date('2019-04-05')), true);
+  assert.equal(isHoliday(new Date('2019-05-02')), true);
 });
 
 it('节日后的补班', function () {
   assert.equal(isHoliday(new Date('2016-10-08')), false);
   assert.equal(isHoliday(new Date('2019-10-12')), false);
+  assert.equal(isHoliday(new Date('2019-04-28')), false);
+  assert.equal(isHoliday(new Date('2019-05-05')), false);
 });

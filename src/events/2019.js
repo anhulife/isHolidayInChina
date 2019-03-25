@@ -20,8 +20,16 @@ export default [
     holiday: true,
   },
   {
-    range: ['2019-05-01'],
+    range: ['2019-04-28'],
+    holiday: false,
+  },
+  {
+    range: ['2019-05-01', '2019-05-04'],
     holiday: true,
+  },
+  {
+    range: ['2019-05-05'],
+    holiday: false,
   },
   {
     range: ['2019-06-07', '2019-06-09'],
